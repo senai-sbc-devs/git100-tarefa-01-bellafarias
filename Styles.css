@@ -2,6 +2,11 @@ body{
     background-color:#2196f3
 }
 
+h1{
+    color:#003785;
+    font-size: 500%;
+}
+
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -53,3 +58,21 @@ body{
         color:#003785;
         font-size: 30px;
         }
+
+        footer{
+            display: flex;
+            background-color: #1465bb;
+            height: 100px;
+            margin-top: 70px;
+            padding: 16px;
+            margin-bottom: -8px;
+            margin-left: -8px;
+            margin-right: -8px;
+            justify-content: end;
+            }
+
+            h2{
+            color:#003785;
+            font-size: 30px;
+            text-align: end;
+            }
