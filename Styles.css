@@ -15,7 +15,7 @@ body{
         text-align: center;
         align-items: center;
     }
-    
+
     a:link, a:visited {
         background-color: #1465bb;
         color: #003785;
@@ -28,4 +28,28 @@ body{
         
         a:hover, a:active {
         background-color: #1465bb;
+        }
+
+        .container {
+            position: relative;
+            width: 90%;
+            margin: 50px;
+            display: flex;
+        }
+        
+        .image {
+            display: block;
+            width: 200%;
+            height: auto;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: row;
+            background-color: rgba(162, 0, 255, 0);
+        }
+        
+        p{
+        color:#003785;
+        font-size: 30px;
         }
