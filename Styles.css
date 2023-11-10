@@ -11,3 +11,21 @@ body{
     padding-bottom: 40px;
     background-color: #1465bb}
 
+    .text{
+        text-align: center;
+        align-items: center;
+    }
+    
+    a:link, a:visited {
+        background-color: #1465bb;
+        color: #003785;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        align-items: center;
+        }
+        
+        a:hover, a:active {
+        background-color: #1465bb;
+        }
